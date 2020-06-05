@@ -1,44 +1,44 @@
+public class Triangle{ 
 
-public class Triangle {
 	public String CheckTriangle(double a, double b, double c) {
 		if (a <= 0 || b <= 0 || c <= 0) {
-			return "¤£¬O¤T¨¤§Î";
+			return "ä¸æ˜¯ä¸‰è§’å½¢";
 		}
 		if (a+b > c && b+c > a && c+a > b) {
 			if (a == b) {
 				if (b == c) {
-					return "¥¿¤T¨¤§Î";
+					return "æ­£ä¸‰è§’å½¢";
 				}
 				else if (a*a + b*b - c*c <= 0.04*a*a) {
-					return "µ¥¸yª½¨¤¤T¨¤§Î";
+					return "ç­‰è…°ç›´è§’ä¸‰è§’å½¢";
 				}
 				else {
-					return "µ¥¸y¤T¨¤§Î";
+					return "ç­‰è…°ä¸‰è§’å½¢";
 				}
 			}
 			else if (b == c) {
 				if (b*b + c*c - a*a <= 0.04*b*b) {
-					return "µ¥¸yª½¨¤¤T¨¤§Î";
+					return "ç­‰è…°ç›´è§’ä¸‰è§’å½¢";
 				}
 				else {
-					return "µ¥¸y¤T¨¤§Î";
+					return "ç­‰è…°ä¸‰è§’å½¢";
 				}
 			}
 			else if(a == c){
 					if (a*a + c*c - b*b <= 0.04*a*a) {
-						return "µ¥¸yª½¨¤¤T¨¤§Î";
+						return "ç­‰è…°ç›´è§’ä¸‰è§’å½¢";
 					}
 					else {
-						return "µ¥¸y¤T¨¤§Î";
+						return "ç­‰è…°ä¸‰è§’å½¢";
 					}
 			}
 			if (a*a + b*b == c*c || b*b + c*c == a*a || a*a + c*c == b*b) {
-				return "ª½¨¤¤T¨¤§Î";
+				return "ç›´è§’ä¸‰è§’å½¢";
 			}
 			else {
-				return "¤@¯ë¤T¨¤§Î";
+				return "ä¸€èˆ¬ä¸‰è§’å½¢";
 			}
 		}
-		return "¤£¬O¤T¨¤§Î";
+		return "ä¸æ˜¯ä¸‰è§’å½¢";
 	}
 }

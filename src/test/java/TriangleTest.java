@@ -7,13 +7,13 @@ public class TriangleTest {
 	@Test
 	public void testCheckTriangle3() {
 		Triangle a = new Triangle();
-		assertEquals("¤@¯ë¤T¨¤§Î"   , a.CheckTriangle(2, 3, 4));
+		assertEquals("ä¸€èˆ¬ä¸‰è§’å½¢"   , a.CheckTriangle(2, 3, 4));
 	}	
 
 	@Test
 	public void testCheckTriangle2() {
 		Triangle a = new Triangle();
-		assertEquals("¥¿¤T¨¤§Î"     , a.CheckTriangle(1, 1, 1));
+		assertEquals("æ­£ä¸‰è§’å½¢"     , a.CheckTriangle(1, 1, 1));
 	}	
 		
 	
@@ -21,36 +21,36 @@ public class TriangleTest {
 	public void testCheckTriangle5() {
 		Triangle a = new Triangle();
 		
-		assertEquals("µ¥¸y¤T¨¤§Î"   , a.CheckTriangle(1, 2, 2));
+		assertEquals("ç­‰è…°ä¸‰è§’å½¢"   , a.CheckTriangle(1, 2, 2));
 	}	
 		
 	@Test
 	public void testCheckTriangle6() {
 		Triangle a = new Triangle();
-		assertEquals("ª½¨¤¤T¨¤§Î"   , a.CheckTriangle(3, 4, 5));
+		assertEquals("ç›´è§’ä¸‰è§’å½¢"   , a.CheckTriangle(3, 4, 5));
 	}	
 
 	@Test
 	public void testCheckTriangle7() {
 		Triangle a = new Triangle();
 	
-		assertEquals("¤@¯ë¤T¨¤§Î"   , a.CheckTriangle(2, 3, 4));		
+		assertEquals("ä¸€èˆ¬ä¸‰è§’å½¢"   , a.CheckTriangle(2, 3, 4));		
 	} 
 	
 	@Test
 	public void testCheckTriangle4() {
 		Triangle a = new Triangle();
 		
-		assertEquals("µ¥¸yª½¨¤¤T¨¤§Î" , a.CheckTriangle(1, 1, 1.414));
+		assertEquals("ç­‰è…°ç›´è§’ä¸‰è§’å½¢" , a.CheckTriangle(1, 1, 1.414));
 
 	}
 
 	@Test
 	public void testCheckTriangle1() {
 		Triangle a = new Triangle();
-		assertEquals("¤£¬O¤T¨¤§Î"   , a.CheckTriangle(0, 0, 0));
-		assertEquals("¤£¬O¤T¨¤§Î"   , a.CheckTriangle(-1, 2, 3));
-		assertEquals("¤£¬O¤T¨¤§Î"   , a.CheckTriangle(2, -1, 5));		
+		assertEquals("ä¸æ˜¯ä¸‰è§’å½¢"   , a.CheckTriangle(0, 0, 0));
+		assertEquals("ä¸æ˜¯ä¸‰è§’å½¢"   , a.CheckTriangle(-1, 2, 3));
+		assertEquals("ä¸æ˜¯ä¸‰è§’å½¢"   , a.CheckTriangle(2, -1, 5));		
 	}
 
 
