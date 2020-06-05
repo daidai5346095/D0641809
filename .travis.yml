@@ -1,0 +1,11 @@
+language: java
+os: linus
+dist: xenial
+
+jdk:
+	- openjdk11
+
+install:
+	- gradle assemble
+script:
+	- gradle test
