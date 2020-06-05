@@ -1,0 +1,14 @@
+plugin{
+	id "java"
+}
+javadoc.options.encoding = "UTF-8"
+compileJava.options.encoding= "UTF-8"
+
+responsitories{
+	movenCentral()
+}
+
+dependencies
+{
+	testImplementation 'junit:junit:4+'
+}
