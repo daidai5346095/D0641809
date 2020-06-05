@@ -1,14 +1,14 @@
 plugin{
 	id "java"
 }
-javadoc.options.encoding = "UTF-8"
-compileJava.options.encoding= "UTF-8"
+javadoc.options.encoding = 'UTF-8'
+compileJava.options.encoding = 'UTF-8'
 
-responsitories{
-	mavenCentral()
+repositories {
+    mavenCentral()
 }
 
-dependencies
-{
-	testImplementation 'junit:junit:4+'
+dependencies {
+    compile 'commons-codec:commons-codec:1.8'
+    testCompile 'junit:junit:4.+'
 }
